@@ -12,7 +12,7 @@ try:
         f.write(quit_f)
         f.write("\n")
 
-    if (checkBox.isAlone("diary.txt")): #TODO add function
+    if (checkBox.isAlone("diary.txt")):
         print("Do you need help?")
 
 except:
